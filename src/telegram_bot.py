@@ -7,8 +7,16 @@ load_dotenv()
 telegram_bot_api_key = os.getenv("TELEGRAM_BOT_API_KEY", "")
 
 help_commands = """
-/help       ---> Show availible commands.
-/analysis   ---> Show an technical analisys of bitcoin.
+COMMANDS:
+
+/help       ---> Display available commands.
+/analysis   ---> Perform a technical analysis of Bitcoin.
+
+🤖 *About CryptoMind*  
+CryptoMind is a technical analysis bot that helps you make informed decisions when trading Bitcoin.  
+
+👨‍💻 *Creator:* [Luiz Gabriel Magalhães Trindade](https://github.com/Luiz-Trindade)  
+📂 *GitHub Repository:* [CryptoMind](https://github.com/Luiz-Trindade/CryptoMind)  
 """
 
 try:
