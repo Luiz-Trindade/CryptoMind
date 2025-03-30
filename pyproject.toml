@@ -1,0 +1,24 @@
+[project]
+name = "cripto-bot"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Luiz-Trindade",email = "luiz.gabriel.m.trindade@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "langchain (>=0.3.21,<0.4.0)",
+    "langchain-core (>=0.3.49,<0.4.0)",
+    "langchain-community (>=0.3.20,<0.4.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "langchain-google-vertexai (>=2.0.18,<3.0.0)",
+    "langchain-google-genai (>=2.1.2,<3.0.0)",
+    "yfinance (>=0.2.55,<0.3.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
