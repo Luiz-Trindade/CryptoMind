@@ -19,7 +19,7 @@ cripto_bot_prompt = """
     *Analise essas informações e forneça uma recomendação clara e objetiva:  
     deve-se comprar, vender ou aguardar? Justifique sua resposta com base 
     nos dados fornecidos, destacando os riscos e oportunidades.
-    Sua resposta deve ser resumida e breve, pois será exibida em um app de mensagens.
+    Sua resposta deve ser resumida, mas não muito curta, pois será exibida em um app de mensagens.
     Utilize alguns emojis para contextualizar a sua resposta.*  
 
     Dados para analisar
