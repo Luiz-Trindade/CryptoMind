@@ -17,6 +17,22 @@
 - **LLMs (Large Language Models)**: Custom prompts for dynamic and context-driven analysis.
 - **Technical Analysis**: Uses moving averages, market data, and the VIX fear index.
 
+## Technical Analysis Example
+
+**Recommendation:** **Wait.**
+
+**Justification:**
+
+The current price (82449.68) is below the short-term (85237.91) and long-term (88784.38) moving averages, indicating a downward trend in the short and medium term. The negative MACD (-1011.09) and below the signal line (-1155.54) reinforce this bearish outlook.
+
+Although the RSI (49.66) is neutral and not signaling oversold conditions, the proximity of the price to the lower Bollinger Band (80607.19) suggests potential selling pressure. The volatility of 2.68% indicates that the price may fluctuate considerably.
+
+**Risks:** Continuing the downward trend and the price may reach the lower Bollinger Band, potentially breaking it.
+
+**Opportunities:** If the price reverses the trend and breaks above the short-term moving average, it could indicate a buy signal. However, with the current indicators, this reversal is not clear.
+
+**In summary:** The technical indicators suggest caution. Waiting for clearer signs of trend reversal or price stabilization is the most prudent strategy at the moment.
+
 ## Setup
 
 ### Prerequisites
