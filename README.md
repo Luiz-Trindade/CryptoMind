@@ -1,5 +1,7 @@
 # CryptoMind
 
+<img src="images/cryptomind_logo.png" alt="CryptoMind Logo" width="200" height="100" />
+
 **CryptoMind** is a technical analysis bot designed to help you make informed decisions when trading cryptocurrencies like Bitcoin. The bot analyzes market data, including moving averages and news, to provide recommendations on whether to buy, sell, or hold an asset based on current market conditions.
 
 ## Features
