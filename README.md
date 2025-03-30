@@ -65,9 +65,3 @@ python src/main.py
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-
-Your Name - [your.email@example.com](mailto:your.email@example.com)
-
-GitHub Repository: [https://github.com/yourusername/cryptomind](https://github.com/yourusername/cryptomind)
