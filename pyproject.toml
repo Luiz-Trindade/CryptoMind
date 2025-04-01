@@ -16,7 +16,8 @@ dependencies = [
     "langchain-google-vertexai (>=2.0.18,<3.0.0)",
     "langchain-google-genai (>=2.1.2,<3.0.0)",
     "yfinance (>=0.2.55,<0.3.0)",
-    "pytelegrambotapi (>=4.26.0,<5.0.0)"
+    "pytelegrambotapi (>=4.26.0,<5.0.0)",
+    "cachetools (>=5.5.2,<6.0.0)"
 ]
 
 
