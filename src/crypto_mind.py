@@ -16,7 +16,7 @@ cache   = TTLCache(maxsize=100, ttl=15)
 models  = ["gemini-2.0-flash-lite", "gemini-2.0-flash", "gemini-2.0-flash-thinking-exp-01-21"]
 
 @cached(cache)
-def crypto_mind_analysis():
+def crypto_mind_analysis(ticker="BTC-USD", periodo="6mo"):
     actual_datetime = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     
     llm = ChatGoogleGenerativeAI(
@@ -31,15 +31,16 @@ def crypto_mind_analysis():
     # Define a Chain usando pipes (|) para encadear os componentes
     chain = prompt | llm | StrOutputParser()
 
-    info_to_analyse = data_to_analyse(ticker="BTC-USD", periodo="6mo")
-    #print(info_to_analyse)
+    info_to_analyse = data_to_analyse(ticker=ticker, periodo=periodo)
+    print(info_to_analyse)
 
     response = chain.invoke({
-        "data_to_analyse" : info_to_analyse,
-        "actual_datetime" : actual_datetime
+        "cripto_asset"      : "",
+        "data_to_analyse"   : info_to_analyse,
+        "actual_datetime"   : actual_datetime,
     })
 
     # Exibe a resposta
     return response.replace("*", "")
 
-#print(crypto_mind_analysis())
+#print(crypto_mind_analysis(ticker="BTC-USD", periodo="6mo"))
