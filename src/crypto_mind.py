@@ -32,7 +32,7 @@ def crypto_mind_analysis(ticker="BTC-USD", periodo="6mo"):
     chain = prompt | llm | StrOutputParser()
 
     info_to_analyse = data_to_analyse(ticker=ticker, periodo=periodo)
-    print(info_to_analyse)
+    #print(info_to_analyse)
 
     response = chain.invoke({
         "cripto_asset"      : "",
