@@ -10,7 +10,6 @@ help_commands = """
 COMMANDS:
 
 /help       ---> Display available commands.
-/analysis   ---> Perform a technical analysis of Bitcoin.
 /bitcoin    ---> Get Bitcoin (BTC) analysis.
 /ethereum   ---> Get Ethereum (ETH) analysis.
 /binance    ---> Get Binance Coin (BNB) analysis.
